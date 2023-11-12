@@ -14,7 +14,6 @@ body {
     display: none !important;
 }
 
-
 .center {
     margin: auto;
 }
@@ -424,7 +423,7 @@ canvas {
 .btn-adn:focus {
     color: #fff;
     background-color: #0095ff;
-    border-color: #b01d475;
+    /* border-color: #b01d4755; */
 }
 
 .btn-adn:active:focus {
@@ -939,14 +938,15 @@ canvas {
 
 
 .gift-code-holder {
-    background-color: #fff;
+    /* background-color: #fff;
     margin-top: 15px;
     min-height: 50px;
     padding-top: 8px;
     text-align: center;
     line-height: 1.5;
     font-size: 23px;
-    color: #333;
+    color: #333; */
+    margin-top: 20px;
 }
 
 .consol-btn-holder {
@@ -1263,4 +1263,30 @@ a.list-group-item, button.list-group-item {
         font-size: 16px;
     }
 
+}
+
+
+
+.button-arrows {
+    position: relative;
+    width: 75%;
+    margin: auto;
+}
+
+.button-arrows .img-arrow-left {
+    position: absolute;
+    left: 0;
+    top: -84px;
+    width: 60px;
+    display: none;
+    transform: rotate(10deg);
+}
+
+.button-arrows .img-arrow-right {
+    position: absolute;
+    right: 0;
+    top: -84px;
+    width: 60px;
+    display: none;
+    transform: rotate(-10deg);
 }
